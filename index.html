@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lokesh-S</title>
+    <meta name="title" content="Devfolio - RAGA">
+    <meta name="description" content="My Personal Portfolio">
+
+    <!-- <link rel="shortcut icon" href="./favic1on.svg" type="image/svg+xml"> -->
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Open+Sans:wght@400;500&display=swap"
+    rel="stylesheet">
+
+    <!-- material - icon  -->
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./assets/style.css">
+    </head>
+<body>
+    
+<!-- top BAR -->
+    <header class="topbar">
+        <button class="icon-btn theme-btn" data-theme-btn>
+            <span class="material-symbols-outlined dark" aria-hidden="true"> dark_mode </span>
+            <span class="material-symbols-outlined light" aria-hidden="true"> light_mode </span>
+            <div class="state-layer"></div>
+        </button>
+    </header>
+
+
+    <main>
+        <article>
+            <!-- HERO -->
+            <section class="section hero"> 
+            <div class="container"> 
+                <figure class="hero-banner img-holder" style="--width:240; --height:240;">
+                    <img src="./assets/images/profileme.jpg" width="240" height="240" alt="Lokesh Satyavada"  class="img-cover">
+                </figure>
+                <div class="hero-content">
+                    <span class="lable-large section-subtitle">Software Architect....</span>
+                    <h1 class="display-small">Lokesh Satyavada</h1>
+                    <p class="body-large section-text">| Cloud | Backend | DevSecOps | </p>
+                <div class="btn-wrapper">
+                    <a href="mailto:lokesh.1512@hotmail.com" class="chip">
+                        <span class="material-symbols-outlined" aria-hidden="true"> mail </span>
+                        <span class="label-large">lokesh.1512@hotmail.com</span>
+                        <div class="state-layer"></div>
+                    </a>
+
+                    <a href="Ph:+91-9573612055" class="chip">
+                        <span class="material-symbols-outlined" aria-hidden="true"> call </span>
+                        <span class="label-large">+91-9573612055</span>
+                        <div class="state-layer"></div>
+                    </a>
+                    <a href="./assets/Resume - LS.pdf" class="chip">
+                        <span class="material-symbols-outlined" aria-hidden="true"> 
+                            
+                        <img src="./assets/images/document.svg" alt="doc"  width="20" height="15"></span>
+                        <span class="label-large">My CV</span>
+                        <div class="state-layer"></div>
+                    </a>
+                    <a href="#" target="_blank" class="chip">
+                        <span class="material-symbols-outlined" aria-hidden="true"> captive_portal </span>
+                        <span class="label-large">guardiansofCloud - Author</span>
+                        <div class="state-layer"></div>
+                    </a>
+                </div>
+                </div>
+            </div>
+            </section>
+
+            <!-- main content -->
+            <div class="article">
+                <div class="about-card">
+                    <h2 class="card-title title-medium">About :</h2>
+                    <ul class="body-medium card-text">
+                        <li>A passionate learner about tech and life. Self thought programmer, Building large scale cloud native applications and making it accessible.
+                        I work with cloud platforms like AWS, Azure.
+                        I am good at configuring & managing virtual machines, containers, & serverless architectures.</li>
+                    </ul>
+                    <ul class="abour-list">
+                        <li class="list-item">
+                            <span class="material-symbols-outlined" aria-hidden="true"> location_on </span>
+
+                            <span class="label-medium">Hyderabad, India</span>
+                        </li>
+
+                        <li class="list-item">
+                            <span class="material-symbols-outlined" aria-hidden="true"> work </span>
+
+                            <span class="label-medium">Present - Self Employed</span>
+                        </li>
+
+                        <li class="list-item">
+                            <span class="material-symbols-outlined" aria-hidden="true"> captive_portal </span>
+
+                            <span class="label-medium"><a href="//www.linkedin.com/in/lokesh-satyavada/">LinkedIn</a></span>
+                        </li>
+                    </ul>
+                    
+                    <ul class="body-medium card-text">
+                        <li>The soul becomes dyed with the color of its thoughts.</li>
+                    </ul>
+                </div>
+            <div>
+
+
+                <div class="primary-tabs">
+                    <!-- primary tabs -->
+                    <button class="tab-btn active" data-tab-btn="project">
+                        <span class="tab-text title-small">Blogs</span>
+                        <div class="state-layer"></div>
+                    </button>
+
+                    <button class="tab-btn " data-tab-btn="work">
+                        <span class="tab-text title-small">Work</span>
+                        <div class="state-layer"></div>
+                    </button>
+
+                    <button class="tab-btn" data-tab-btn="contact">
+                        <span class="tab-text title-small">Contact</span>
+                        <div class="state-layer"></div>
+                    </button>
+                </div>
+                <!-- 
+                Project -- SET
+                -->
+                <!-- projects editing class = "sections tab-content active" -->
+                <section class="section tab-content active" data-tab-content="project"> 
+                    <div class="container">
+                        <div class="project-list">
+                            <div class="card">
+                                <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
+                                    <img src="./assets/images/AWS-S3-CLI.jpg" alt="Stock Media App" width="334" height="180" class="img-cover">
+                                </figure>
+                                <div class="card-content">
+                                    <span class="label-large card-subtitle">BASH CLI tool</span>
+                                    <h3 class="title-large card-title">AWS-S3-CloudUploader-CLI.</h3>
+
+                                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7228460827849154561/"  target="_blank" class="state-layer"></a>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
+                                    <img src="./assets/images/aws-resume-chall.jpg" alt="Stock Media App" width="334" height="180" class="img-cover">
+                                </figure>
+                                
+                                <div class="card-content">
+                                    <span class="label-large card-subtitle">Cloud-Project</span>
+                                    <h3 class="title-large card-title">The Cloud Resume Challenge</h3>
+
+                                    <a href="https://dev.to/lokesh_satya/the-cloud-resume-challenge-500n" target="_blank" class="state-layer"></a>
+                                </div>
+                            </div>
+<!-- ADD Blog Posts here -->
+                            <div class="card">
+                                <figure class="card-banner img-holder" style="--width: 334; --height: 180;">
+                                    <img src="./assets/images/project-1.png" alt="Stock Media App" width="334" height="180" class="img-cover">
+                                </figure>
+                                
+                                <div class="card-content">
+                                    <span class="label-large card-subtitle">Web APP</span>
+                                    <h3 class="title-large card-title">Lorem, ipsum dolor.</h3>
+
+                                    <a href="#" class="state-layer"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- resume -->
+                <section class="section tab-content resume-tab " data-tab-content="work">
+                    <div class="container">
+                        <h2 class="section-title title-small">Experience</h2>
+                        <ul class="list">
+                            <li class="resume-item">
+                                <div class="resume-card">
+                                    <p class="body-large">Freelancer</p>
+                                    <span class="label-medium card-subtitle">2024 - Present</span>
+                                    <span class="body-medium card-text">Building Guardians-Of-Cloud community, for future Cloud Devs to have awareness in security risks, compliance risks in data management and integrity risks.</span>
+
+                                </div>
+                            </li>
+                            <!-- <li class="resume-item">
+                                <div class="resume-card">
+                                    <p class="body-large">CLoud Backend</p>
+                                    <span class="label-medium card-subtitle">2024 - 2025</span>
+                                    <span class="body-medium card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, maiores.</span>
+
+                                </div>
+                            </li> -->
+                        </ul>
+                        <h2 class="section-title title-small" >Education</h2>
+                        <ul class="list">
+                            <li class="resume-item">
+                                <div class="resume-card">
+                                    <p class="body-large">
+                                        BTech-Electronics and Communication Engineering
+                                    </p>
+                                    <span class="label-medium card-subtitle">
+                                        2024-2020
+                                    </span>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <h2 class="section-title title-small">Skills and Technology</h2>
+                        <ul class="resume-bottom-list">
+                            <li class="resume-bottom-item">
+                                <img src="./assets/images/AWSi.svg" width="32" height="32" loading="lazy" alt="AWS" class="icon">
+                                <span class="label-medium">AWS</span>
+                            </li>
+                            <li class="resume-bottom-item">
+                                <img src="./assets/images/azure.svg" width="32" height="32" loading="lazy" alt="AWS" class="icon">
+                                <span class="label-medium">Azure</span>
+                            </li>
+                            <li class="resume-bottom-item">
+                                <img src="./assets/images/javascript.svg" width="28" height="28" loading="lazy" alt="javascript" class="icon">
+                                <span class="label-medium">JavaScript</span>
+                            </li>
+                            <li class="resume-bottom-item">
+                                <img src="./assets/images/nodejs.svg" width="28" height="28" loading="lazy" alt="React JS" class="icon">
+                                <span class="label-medium">NodeJS</span>
+                            </li>
+                            <li class="resume-bottom-item">
+                                <img src="./assets/images/mongoDB.svg" width="18" height="18" loading="lazy" alt="mongoDB" class="icon">
+                                <span class="label-medium">MongoDB</span>
+                            </li>
+                            <li class="resume-bottom-item">
+                                <img src="./assets/images/terraform.svg" width="32" height="32" loading="lazy" alt="AWS" class="icon">
+                                <span class="label-medium">IaC</span>
+                            </li>
+                            <li class="resume-bottom-item">
+                                <img src="./assets/images/linux.svg" width="32" height="32" loading="lazy" alt="AWS" class="icon">
+                                <span class="label-medium">linux</span>
+                            </li>
+                            <li class="resume-bottom-item">
+                                <img src="./assets/images/jenkins.svg" width="32" height="32" loading="lazy" alt="AWS" class="icon">
+                                <span class="label-medium">DevOps</span>
+                            </li>
+                            <li class="resume-bottom-item">
+                                <img src="./assets/images/docker.svg" width="32" height="32" loading="lazy" alt="AWS" class="icon">
+                                <span class="label-medium">Docker</span>
+                            </li>
+                            <li class="resume-bottom-item">
+                                <img src="./assets/images/git-deployment.svg" width="28" height="28" loading="lazy" alt="github" class="icon">
+                                <span class="label-medium">Git-Actions</span>
+                            </li>
+                            <li class="resume-bottom-item">
+                                <img src="./assets/images/kubernetes.svg" width="32" height="32" loading="lazy" alt="AWS" class="icon">
+                                <span class="label-medium">K8s</span>
+                            </li>
+                            <li class="resume-bottom-item">
+                                <img src="./assets/images/apis.svg" width="32" height="32" loading="lazy" alt="AWS" class="icon">
+                                <span class="label-medium">APIs</span>
+                            </li>
+                        </ul>
+
+                    </div>
+                </section>
+
+
+
+                <!-- Contact section -->
+
+                <section class="section tab-content contact-tab " data-tab-content="contact">
+                    <div class="container">
+                        <div class="contact-info">
+                            <h4 class="section-title title-small">
+                                Contact Info
+                            </h4>
+                            <ul class="contact-info-list">
+                                <li class="contact-info-item">
+                                    <div class="icon-box">
+                                        <span class="material-symbols-outlined" aria-hidden="true"> mail </span>
+                                    </div>
+                                    <div class="info-content">
+                                        <p class="label-small info-title">Mail Us</p>
+                                        <a href="mailto:lokesh.1512@hotmail.com" class="label-small info-text">lokesh.1512@hotmail.com</a>
+                                    </div>
+                                </li>
+                                <li class="contact-info-item">
+                                    <div class="icon-box">
+                                        <span class="material-symbols-outlined" aria-hidden="true"> call </span>
+                                    </div>
+                                    <div class="info-content">
+                                        <p class="label-small info-title">Contact Me</p>
+                                        <a href="tel:+91-9573612055" class="label-small info-text">+91-9573612055</a>
+                                    </div>
+                                </li>
+                                <li class="contact-info-item">
+                                    <div class="icon-box">
+                                        <span class="material-symbols-outlined" aria-hidden="true"> location_on </span>
+                                    </div>
+                                    <div class="info-content">
+                                        <p class="label-small info-title">Address </p>
+                                        <a href="#" class="label-small info-text">Hyderabd Telangana, India</a>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <h4 class="title-small">Social Info</h4>
+
+                            <div class="social-list">
+                                <a href="https://x.com/SatyavadaL" class="social-item" target="_blank">
+                                    <img src="./assets/images/icons8-twitter.svg" alt="X" width="32" height="32" loading="lazy" class="icon">
+                                </a>
+                                <a href="https://www.linkedin.com/in/lokesh-satyavada/" class="social-item" target="_blank">
+                                    <img src="./assets/images/linkedin.svg" alt="linkedin" width="32" height="32" loading="lazy" class="icon">
+                                </a>
+                                <a href="https://github.com/sLokesh-code/Lokesh-Satyavada" class="social-item" target="_blank">
+                                    <img src="./assets/images/icons8-github.svg" alt="github" width="32" height="32" loading="lazy" class="icon">
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+            </div>
+            </div>
+        </article>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p class="body-medium">  1% Luck. 99% Hard Work
+            </p>
+        </div>
+    </footer>
+
+
+    <!-- js link -->
+    <script src="./assets/script.js"></script>
+
+
+
+
+</body>
+</html>
